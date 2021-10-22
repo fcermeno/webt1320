@@ -1,11 +1,11 @@
 body {
-    background-color:#4C5973;
+    background-color:rgb(238, 226, 231);
     font-family: 'Besley', serif;
     line-height: 1.6em;
 
 }
 #container {
-    background-color: #CEF299;
+    background-color: rgb(240, 4, 83);
     width: 900px;
     margin: 20px auto;
     border-radius: 20px;
@@ -24,7 +24,7 @@ header img {
 header h1 {
     font-size: 2.5em;
     text-align: center;
-    color: rgb(221, 19, 80);
+    color: rgb(248, 248, 248);
     font-family: 'Oswald', sans-serif;
 
 }
@@ -35,7 +35,7 @@ main {
 }
 main h2 {
 text-align: center;
-color: #25282e;
+color: rgb(121, 8, 70);
 font-size: 2em;
 font-family: 'Oswald', sans-serif;
 }
@@ -52,13 +52,13 @@ nav a {
     font-size: 1.5em;
     font-weight: bold;
     line-height: 50px;
-    color: #4C5973;
+    color: rgb(121, 8, 70);
     text-decoration: none;
     border-radius: 10px 10px 0 0;
     margin: 0 10px;
 }
 nav a:hover {
-    background-color: #4C5973;
+    background-color: rgb(121, 8, 70);
     color: #CEF299;
 }
 main img {
@@ -70,7 +70,7 @@ main img {
     border-radius: 20px;
 }
 footer {
-    background-color: seagreen;
+    background-color: rgb(121, 8, 70);
     padding: 60px 0;
     color: #CEF299;
     font-size: 1em;
@@ -78,7 +78,7 @@ footer {
     border-radius: 0 0 20px 20px;
 }
 .active {
-    background-color: #4C5973;
+    background-color: rgb(121, 8, 70);
     color: #CEF299;
 
 }
