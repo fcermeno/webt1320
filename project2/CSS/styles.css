@@ -85,7 +85,7 @@ main img {
 }
 section img {
     width: 10%;
-    position: calc(0px 10px 10px);
+    position: static;
     padding: 5px;
 }
 footer {
