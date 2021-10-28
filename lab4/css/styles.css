@@ -111,6 +111,12 @@ iframe {
 table {
     display: none;
 }
+<<<<<<< HEAD
+=======
+.galeria {
+    display: block;
+}
+>>>>>>> parent of a305c9a (Update styles.css)
 
 /* Tablet Styles */
 @media(min-width: 768px) {
