@@ -112,11 +112,14 @@ table {
     display: none;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .galeria {
     display: block;
 }
 >>>>>>> parent of a305c9a (Update styles.css)
+=======
+>>>>>>> parent of 57388d9 (update)
 
 /* Tablet Styles */
 @media(min-width: 768px) {
