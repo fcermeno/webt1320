@@ -117,6 +117,7 @@ iframe {
 }
 .galeria {
     display: block;
+    display: inline;
 }
 
 /* Tablet Styles */
