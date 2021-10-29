@@ -203,7 +203,7 @@ audio, iframe {
 section, aside {
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
+        width: 98%;
     }
     .col {
         width: 100%;
@@ -227,7 +227,6 @@ table img {
 .galeria_img {
     border: 2px solid rgb(241, 160, 38);
     border-radius: 10px;
-    margin: 10px auto;
 }
 .small {
     font-size: small;
