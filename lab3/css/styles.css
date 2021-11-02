@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-    background: linear-gradient(180deg, #262c77, #aee3f3);
+    background-color: #262c77;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 img {
@@ -105,11 +105,7 @@ h2, h3 {
     header {
         border-radius: 20px 20px 0 0;
     }
-section, aside {
-        margin-left: auto;
-        margin-right: auto;
-        width: 98%;
-    }
+    
     .but {
         width: 100%;
         margin-left: 1em;
