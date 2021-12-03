@@ -118,8 +118,8 @@ footer {
 audio, iframe {
     display: block;
     margin: 20px auto;
-    width: 560px;
-    height: 315px;
+    padding: 10px;
+    width: 80%;
 }
 .col img {
     width: 70%;
@@ -234,6 +234,10 @@ table, tr, td {
 }
 table img {
     width: 90%;
+}
+iframe {
+    width: 560px;
+    height: 450px;
 }
 .galeria_img {
     border: 2px solid #e2c000;
