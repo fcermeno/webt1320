@@ -1,0 +1,252 @@
+/* Global Styles */
+body {
+    background: linear-gradient(180deg, rgb(31, 48, 121),#87c9ff);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+img {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+/* Mobile Styles */
+#container {
+    background-color: #fff;
+    margin: 10px;
+}
+header {
+    background-image: url('../images/header1.jpg');
+    background-size: cover;
+    padding: 130px 0;
+}
+h1 {
+    color: #fff;
+    text-align: center;
+    text-shadow: #000;
+    margin: 20px;
+    font-size: 19px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    display: block;
+}
+nav li a {
+    display: block;
+    background-color: #e2c000;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px 0;
+
+}
+nav li a:hover {
+    background-color: rgb(31, 48, 121);
+    opacity: 70%;
+    color: #fff;
+    text-decoration: underline;
+}
+
+ section, aside, col {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(219, 218, 218);
+    box-shadow: 2px 2px 2px #000;
+}
+nav {
+    background-color: #e2c000;
+    box-shadow: 0 2px 0 0 rgb(99, 98, 98);
+    padding: 0;
+}
+footer {
+    background-color: #e2c000;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+ 
+}
+
+h2, h3 {
+    color: rgb(31, 48, 121);
+    font-size: 1.7em;
+    text-align: center;
+}
+h4 {
+    color: rgb(31, 48, 121);
+    font-size: 1.4em;
+}
+
+
+section img, aside img {
+    width: 70%;
+}
+.button {
+    display: block;
+    background-color: rgb(31, 48, 121);
+    color: #e2c000;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0;
+    border-radius: 10px;
+
+}
+
+.button:hover {
+    background-color: rgb(31, 48, 121);
+    color: #e2c000;
+    text-shadow: 2px 2px 2px #000;
+    opacity: 70%;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+}
+.single_col {
+    width: 75%;
+}
+audio, iframe {
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+}
+.col img {
+    width: 70%;
+    border-radius: 10px;
+    border: 2px solid #e2c000;
+}
+.col {
+    margin-left: 1em;
+    width: 90%;
+}
+#upper_flex {
+    width: 90%;
+    margin: auto;
+}
+.galeria_img {
+    border: 2px solid #e2c000;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+
+.cuadro {
+    display: none;
+} 
+
+/* Tablet Styles */
+@media(min-width: 768px) {
+    header {
+        padding: 180px;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+
+    nav {
+        text-align: center;
+    
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        width: 125px;
+    }
+    #upper {
+        display: flex;
+    }
+    section, aside {
+        width: 50%;
+        text-align: center;
+    
+    }
+    aside img {
+        width: 70%;
+    }
+    .col img {
+        width: 60%;
+        border-radius: 10px;
+        border: 2px solid  #e2c000;
+    }
+}
+.single_col {
+    width: 95%;
+}
+
+/* Desktop Styles */
+@media(min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+        border: 2px solid  rgb(82, 81, 81);
+        border-radius: 20px;
+    }
+    header {
+        border-radius: 15px 15px 0 0;
+        padding: 200px;
+    }
+h1 {
+        color: #fff;
+        text-align: center;
+        text-shadow: #000;
+        margin: 20px;
+        font-size: 30px;
+    }
+    nav li a {
+        margin: 0 10px;
+    }
+    #lower {
+        display: flex;
+    }
+section, aside {
+        margin-left: auto;
+        margin-right: auto;
+        width: 98%;
+        text-align: center;
+    }
+    .col {
+        width: 100%;
+        margin-left: 1em;
+    }
+    .col img {
+        width: 90%;
+        margin-left: 1em;
+    }
+.single_col {
+    width: 90%;
+}
+table, tr, td {
+    border: 4px solid #e2c000;
+    margin: 10px;
+}
+table img {
+    width: 90%;
+}
+.galeria_img {
+    border: 2px solid #e2c000;
+    border-radius: 10px;
+}
+.small {
+    font-size: small;
+}
+
+.cuadro {
+    display: block;
+}
+.galeria {
+    display: none;
+}
+}
