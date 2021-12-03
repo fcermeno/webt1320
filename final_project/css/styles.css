@@ -119,7 +119,6 @@ footer {
 audio, iframe {
     display: block;
     margin: 20px auto;
-    width: 70%;
 }
 .col img {
     width: 70%;
