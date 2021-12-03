@@ -59,6 +59,7 @@ nav li a:hover {
     margin: 10px;
     border: 2px solid rgb(219, 218, 218);
     box-shadow: 2px 2px 2px #000;
+    text-align: center;
 }
 nav {
     background-color: #e2c000;
