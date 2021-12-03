@@ -23,7 +23,6 @@ header {
 h1 {
     color: #fff;
     text-align: center;
-    text-shadow: rgb(22, 21, 21);
     margin: 20px;
     font-size: 19px;
 }
@@ -203,7 +202,6 @@ audio, iframe {
 h1 {
         color: #fff;
         text-align: center;
-        text-shadow: rgb(24, 22, 22);
         margin: 20px;
         font-size: 30px;
     }
